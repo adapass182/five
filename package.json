@@ -8,7 +8,7 @@
     "serve": "^14.1.2"
   },
   "scripts": {
-    "rollup": "rollup -c",
-    "start": "rollup -c && serve"
+    "build": "rollup -c",
+    "start": "serve build/"
   }
 }
